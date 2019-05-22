@@ -1,0 +1,17 @@
+<div class="welcome">
+  <h2>Welcome to my quiz world</h2>
+  <table class ="table">
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>link</th>
+    </tr>
+    <tr *ngFor="let quiz of quiz; let i = index">
+      <td>{{i + 1}}</td>
+      <td>{{quiz.name|uppercase}}</td>
+      <td>{{quiz.description}}</td>
+      <td><a routerLink="/{{quiz.name}}" class="btn btn-primary">{{quiz.fileName}}</a></td>
+    </tr>
+  </table>
+</div>

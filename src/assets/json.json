@@ -1,0 +1,29 @@
+[
+  {
+    "label": "JSON strings have to be in?",
+    "choices": [
+      {"value": "single quote", "correct": false},
+      {"value": "double quote", "correct": true},
+      {"value": "single quote or double quote", "correct": false},
+      {"value": "none", "correct": false}
+    ]
+  },
+  {
+    "label": "Which of the following is not a JSON type?",
+    "choices": [
+      {"value": "Object", "correct": false},
+      {"value": "date", "correct": true},
+      {"value": "Array", "correct": false},
+      {"value": "string", "correct": false}
+    ]
+  },
+  {
+    "label": "In this example, what is the TYPE of employee? { “employee” : { “type” : “Director”, “functions” : [‘sales’, ‘marketing’] } }",
+    "choices": [
+      {"value": "String", "correct": false},
+      {"value": "Director", "correct": false},
+      {"value": "type", "correct": false},
+      {"value": "Object", "correct": true}
+    ]
+  }
+  ]
