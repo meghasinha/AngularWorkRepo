@@ -9,6 +9,5 @@ import { Question } from '../quiz.model';
 })
 export class ResultsComponent {
  @Input() answers: Answers;
-  @Input() question:Question;
-
+ @Input() question:Question;
 }
