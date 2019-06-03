@@ -11,9 +11,9 @@ import { Quiz, Answers, Choice, Question } from '../quiz.model';
 })
 export class QuestionsComponent implements OnInit {
 
-  private quiz: Quiz;
+  public quiz: Quiz;
   private answers: Answers;
-  private questions: Question[];
+  public questions: Question[];
   private currentQuestionIndex: number;
   private showResults = false;
 
